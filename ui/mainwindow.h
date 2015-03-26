@@ -8,5 +8,7 @@ public:
 explicit MainWindow(QWidget *parent = 0);
 signals:
 public slots:
+// vot zdes objyavlyaem slot
+    void okClicked();
 };
 #endif // MAINWINDOW_H
